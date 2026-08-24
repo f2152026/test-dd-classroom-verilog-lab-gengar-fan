@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "test-dd-classroom"
+assignment: "verilog-lab"
+owner:
+  username: "gengar-fan"
+  id: 315069451
+  accepted_at: "2026-08-24T14:50:43Z"
+source:
+  owner: "f2152026"
+  owner_id: 316136693
+  repo: "verilog-labs"
+  branch: "main"
