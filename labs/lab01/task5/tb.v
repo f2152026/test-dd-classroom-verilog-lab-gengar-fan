@@ -27,6 +27,10 @@ module tb;
     end
   end
 
+
+
+
+
   initial begin
     t_a = 64'd0; t_b = 64'd0; t_cin = 0;
     #30 t_a = 64'hFFFFFFFF_FFFFFFFF; t_b = 64'd1; t_cin = 0;   // worst-case ripple
@@ -34,6 +38,7 @@ module tb;
     #30 t_a = 64'd123456789; t_b = 64'd987654321; t_cin = 0;
     #30 $finish;
   end
+
 
   initial
     $monitor($time, " a=%h b=%h cin=%b | sum=%h cout=%b", t_a, t_b, t_cin, t_sum, t_cout);
